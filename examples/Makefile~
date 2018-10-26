@@ -1,7 +1,0 @@
-
-default:
-	@echo "Type \"make clean\" to clean up"
-
-clean:
-	make -C cfd clean
-	make -C archer clean

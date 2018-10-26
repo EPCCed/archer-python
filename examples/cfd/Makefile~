@@ -1,9 +1,0 @@
-
-default:
-	@echo "Type \"make clean\" to clean up in cfd and archer directories"
-
-clean:
-	make -C archer clean
-	make -C cfd clean
-	rm -rf __pycache__ *pyc .ipynb_checkpoints
-
