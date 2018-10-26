@@ -1,0 +1,18 @@
+#!/bin/bash --login
+
+#PBS -N qscript
+#PBS -l select=1
+#PBS -l walltime=00:20:00
+#PBS -A
+
+cd $PBS_O_WORKDIR
+
+module load python-compute
+module load pc-numpy
+
+# f90wrap runtime: assumes f90wrap is installed in the current
+# directory as described in the Makefile
+
+export PYTHONPATH=`pwd`/f90wrap/lib/python2.7/site-packages:$PYTHONPATH
+
+aprun -n 24 -N 24 python ./mpi-driver.py

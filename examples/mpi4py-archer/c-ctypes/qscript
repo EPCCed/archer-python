@@ -1,0 +1,16 @@
+#!/bin/bash --login
+
+#PBS -N qscript
+#PBS -l select=1
+#PBS -l walltime=00:20:00
+#PBS -A
+
+cd $PBS_O_WORKDIR
+
+module load python-compute
+
+# For mpi4py 2.0.0 we must precede the mpi4py 1.3.1 in python-compute
+# e.g.,
+export PYTHONPATH=/work/z01/z01/kevin/python/venv-be/test-D/lib/python2.7/site-packages:$PYTHONPATH
+
+aprun -n 4 python ./mpi-driver.py

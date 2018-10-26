@@ -1,0 +1,15 @@
+!    -*- f90 -*-
+! Note: the context of this file is case sensitive.
+
+python module farray ! in 
+    interface  ! in :farray
+        subroutine array_sqrt(n,a_in,a_out) ! in :farray:farray_sqrt.f90
+            integer, optional,intent(in),check(len(a_in)>=n),depend(a_in) :: n=len(a_in)
+            real dimension(n),intent(in) :: a_in
+            real dimension(n),intent(out),depend(n) :: a_out
+        end subroutine array_sqrt
+    end interface 
+end python module farray
+
+! This file was auto-generated with f2py (version:2).
+! See http://cens.ioc.ee/projects/f2py2e/

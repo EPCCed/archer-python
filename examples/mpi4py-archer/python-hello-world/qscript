@@ -1,0 +1,17 @@
+#!/bin/bash --login
+
+#PBS -N qscript
+#PBS -l select=1
+#PBS -l walltime=00:20:00
+#PBS -A 
+
+cd $PBS_O_WORKDIR
+
+# Load the relevant back-end modules
+
+module load python-compute
+module load pc-numpy
+
+# Run on 24 tasks (-n 24) with 24 tasks per node (-N 24)
+
+aprun -n 24 -N 24 python ./hello.py

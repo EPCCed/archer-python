@@ -1,0 +1,13 @@
+#!/bin/bash --login
+
+#PBS -N qscript
+#PBS -l select=1
+#PBS -l walltime=00:20:00
+#PBS -A
+
+cd $PBS_O_WORKDIR
+
+module load python-compute
+module load pc-numpy
+
+aprun -n 24 -N 24 python mpi-driver.py

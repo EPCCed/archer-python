@@ -1,0 +1,18 @@
+!    -*- f90 -*-
+! Note: the context of this file is case sensitive.
+
+python module jacobi ! in 
+    interface  ! in :jacobi
+        subroutine jacobi(m,n,niter,psi) ! in :jacobi:jacobi.f90
+            intent(c) jacobi
+            intent(c)
+            integer, optional,intent(in),check((shape(psi,0)-2)==m),depend(psi) :: m=(shape(psi,0)-2)
+            integer, optional,intent(in),check((shape(psi,1)-2)==n),depend(psi) :: n=(shape(psi,1)-2)
+            integer intent(in) :: niter
+            real*8 dimension(m + 2,n + 2),intent(inplace) :: psi
+        end subroutine jacobi
+    end interface 
+end python module jacobi
+
+! This file was auto-generated with f2py (version:2).
+! See http://cens.ioc.ee/projects/f2py2e/

@@ -1,0 +1,13 @@
+#!/bin/bash --login
+
+#PBS -N qscript
+#PBS -l select=1
+#PBS -l walltime=00:20:00
+#PBS -A y14
+
+cd $PBS_O_WORKDIR
+
+module load python-compute
+module load pc-numpy
+
+aprun -n 2 -N 2 python ./exercise1.py
