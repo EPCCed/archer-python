@@ -19,6 +19,19 @@ For this last stage you will require a git client (Linux/MacOS should have
 one installed; Windows users may use e.g., Git for Windows from
 https://gitforwindows.org/).
 
+#### Contents
+
+Lecture content is intended to be run via jupyter-lab and may be found
+the `lectures` sub-directory. E.g., once you have downloaded the 
+respository, from this directory run the command
+```
+$ jupyter-lab
+```
+and use the file navigation bar on the left.
+
+
+#### ARCHER
+
 We recommend the Anaconda distribution, as this provides a simple mechanism
 to download all the python packages we will be interested in for the purposes
 of the course. If you have an insisting installation of python, you should
@@ -35,12 +48,4 @@ For MacOS/Linux
 
 * X-window implementation, e.g., XQuartz http://www.xquartz.org
 (note Mac-style terminal windows are not enough).
-
-#### Contents
-
-Python for Users
-
-[]
-
-Python for Developers
 
