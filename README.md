@@ -1,16 +1,19 @@
 
 ## ARCHER python course
 
-Welcome to the ARCHER python course.
+Welcome to the ARCHER python course. ARCHER https://www.archer.ac.uk/ is
+the UK national supercomputing service.
 
 #### Local details for Newcastle December 2018
 
+Timetable; location; local announcements.
+
 #### What you will need
 
-- Your Laptop (Windows/MacOS/Linux)
+- Your Laptop (Windows/MacOS/Linux) and eduroam credetials to connect to wifi
 - Anaconda distribution of Python Version 3.5 or above. This may be downloaded
   from https://www.continuum.io/
-- The course material downloaded from this repository
+- The course material should be downloaded from this repository
 ```
 $ git clone http://github.com/EPCCed/archer-python.git
 ```
@@ -23,14 +26,33 @@ https://gitforwindows.org/).
 
 Lecture content is intended to be run via jupyter-lab and may be found
 the `lectures` sub-directory. E.g., once you have downloaded the 
-respository, from this directory run the command
+respository, from the directory containing this README run the command
 ```
 $ jupyter-lab
 ```
-and use the file navigation bar on the left.
+and use the file navigation bar on the left to move to the lectures.
+
+#### Examples
+
+Thematic exmaple in examples/cfd
+
+Archer examples in examples/mpi4py-archer
+
+
+#### TODO
+
+- contributing model
+- license code/content
+- public repository tests
+- complete clean-up of cfd example
+- add newcastke interest lecture
+- complete user-intro
+- consider scipy split?
 
 
 #### ARCHER
+
+Pending X-windows? Instructions on ssh -l <acount-name> login.archer.ac.uk?
 
 We recommend the Anaconda distribution, as this provides a simple mechanism
 to download all the python packages we will be interested in for the purposes
