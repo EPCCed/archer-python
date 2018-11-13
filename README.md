@@ -10,7 +10,7 @@ Timetable; location; local announcements.
 
 #### What you will need
 
-- Your Laptop (Windows/MacOS/Linux) and eduroam credetials to connect to wifi
+- Your Laptop (Windows/MacOS/Linux) and a wifi connection (with eduroam credentials or as guest)
 - Anaconda distribution of Python Version 3.5 or above. This may be downloaded
   from https://www.continuum.io/
 - The course material should be downloaded from this repository
@@ -34,7 +34,7 @@ and use the file navigation bar on the left to move to the lectures.
 
 #### Examples
 
-Thematic exmaple in examples/cfd
+Thematic example in examples/cfd
 
 Archer examples in examples/mpi4py-archer
 
@@ -45,17 +45,17 @@ Archer examples in examples/mpi4py-archer
 - license code/content
 - public repository tests
 - complete clean-up of cfd example
-- add newcastke interest lecture
+- add Newcastle interest lecture
 - complete user-intro
 - consider scipy split?
 
 
 #### ARCHER
 
-Pending X-windows? Instructions on ssh -l <acount-name> login.archer.ac.uk?
+Pending X-windows? Instructions on ssh -l <account-name> login.archer.ac.uk?
 
 We recommend the Anaconda distribution, as this provides a simple mechanism
-to download all the python packages we will be interested in for the purposes
+to download all the python packages we will need for the purposes
 of the course. If you have an insisting installation of python, you should
 note that the course will require at least: numpy, matplotlib, scipy, and
 jupyter. BASH TERMINAL via jupyter.
