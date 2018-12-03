@@ -39,35 +39,6 @@ Thematic example in examples/cfd
 Archer examples in examples/mpi4py-archer
 
 
-#### TODO
-
-- contributing model
-- license code/content
-- public repository tests
-- complete clean-up of cfd example
-- add Newcastle interest lecture
-- complete user-intro
-- consider scipy split?
-
-
 #### ARCHER
 
-Pending X-windows? Instructions on ssh -l <account-name> login.archer.ac.uk?
-
-We recommend the Anaconda distribution, as this provides a simple mechanism
-to download all the python packages we will need for the purposes
-of the course. If you have an insisting installation of python, you should
-note that the course will require at least: numpy, matplotlib, scipy, and
-jupyter. BASH TERMINAL via jupyter.
-
-* For Windows: An ssh client, and an X-window implementation. These are
-conveniently supplied together by, e.g., MobaXterm
-http://mobaxterm.mobatek.net
-
-For MacOS/Linux
-
-* ssh (usually installed as a default)
-
-* X-window implementation, e.g., XQuartz http://www.xquartz.org
-(note Mac-style terminal windows are not enough).
-
+Details of access to ARCHER will be provided on the day.
