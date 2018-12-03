@@ -4,5 +4,5 @@ default:
 
 clean:
 	rm -f untitled*txt Untitled*ipynb
-	rm -rf .ipynb_checkpoints
+	rm -rf .ipynb_checkpoints __pycache__
 	rm -f hello.py

@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-# Computes a median from a list of dates of birth
+"""Computes a median from a list of dates of birth"""
 
 import datetime
 
