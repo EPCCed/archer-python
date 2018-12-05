@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-"""An exmaple of a module"""
+"""An example of a module"""
 
 def my_name(caller):
 
