@@ -1,8 +1,7 @@
 
 ## Belfast 16-17 December 2019
 
-Location: Newcastle University Medical School, Framlington Place.
-
+Location: Room MAPTC/01/004, Mathematics and Physics Teaching Centre, Queens's University Belfast
 
 #### Timetable
 
