@@ -22,11 +22,11 @@ MONDAY
 TUESDAY
 10:00 Using scipy        ./lectures/core-scipy/scipy.ipynb
 11:00 Break
-11:30 Python classes     ./lectures/core-object/object.ipynb
+11:30 Fortran/C Interfaces   ./lectures/dev-compile/cfortran.ipynb
 13:00 Lunch
 
-14:00 Fortran/C interfaces
-15:00 Break
-15:20 Parallel processing and mpi4py
+14:00 Parallel processing & mpi4py  ./lectures/dev-mpi4py/mpi4py.ipynb   
+15:30 Break
+15:45 Python classes     ./lectures/core-object/object.ipynb
 16:45 Close
 ```
