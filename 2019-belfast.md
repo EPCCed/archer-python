@@ -1,5 +1,5 @@
 
-## Newcastle 6-7 December 2018
+## Belfast 16-17 December 2019
 
 Location: Newcastle University Medical School, Framlington Place.
 
@@ -7,7 +7,7 @@ Location: Newcastle University Medical School, Framlington Place.
 #### Timetable
 
 ```
-THURSDAY
+MONDAY
 09:45 Registration and check installations
 10:15 Introduction       ./lectures/user-intro/intro.ipynb
 10:15 Break
@@ -19,7 +19,7 @@ THURSDAY
 15:45 Exercises
 17:00 Close
 
-FRIDAY
+TUESDAY
 10:00 Using scipy        ./lectures/core-scipy/scipy.ipynb
 11:00 Break
 11:30 Python classes     ./lectures/core-object/object.ipynb
