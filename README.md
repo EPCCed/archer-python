@@ -4,9 +4,9 @@
 Welcome to the ARCHER python course. ARCHER https://www.archer.ac.uk/ is
 the UK national supercomputing service.
 
-#### Local details for Newcastle December 2018
+#### Local details for Belfast December 2019
 
-Timetable; location; local announcements.
+Timetable & location are in ./2019-belfast.md
 
 #### What you will need
 
