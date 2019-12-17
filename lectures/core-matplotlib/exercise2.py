@@ -23,7 +23,7 @@ plt.pie(pie_sizes, labels=pie_labels, colors=pie_colours,
 data1 = np.genfromtxt("uniform.dat")
 
 plt.sca(axes[1])
-plt.hist(data1, bins = 10, normed = 1, color = "m",
+plt.hist(data1, bins = 10, density = 1, color = "m",
          label = "Uniform", edgecolor = "k")
 plt.ylabel("$P(x)$", size = 18)
 plt.legend()
@@ -31,7 +31,7 @@ plt.legend()
 data2 = np.genfromtxt("normal.dat")
 
 plt.sca(axes[2])
-plt.hist(data2, bins = 10, normed = True, color = "g",
+plt.hist(data2, bins = 10, density = True, color = "g",
          label = "Normal", edgecolor = "k")
 plt.xlabel("Variable $x$", size = 18)
 plt.ylabel("$P(x)$", size = 18)

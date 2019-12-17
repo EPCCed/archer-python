@@ -9,7 +9,7 @@ Location: Room MAPTC/01/004, Mathematics and Physics Teaching Centre, Queens's U
 MONDAY
 09:45 Registration and check installations
 10:15 Introduction       ./lectures/user-intro/intro.ipynb
-10:15 Break
+11:15 Break
 11:30 Using numpy        ./lectures/core-numpy/numpy.ipynb
 13:00 Lunch
 
