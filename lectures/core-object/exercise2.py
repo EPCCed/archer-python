@@ -10,11 +10,11 @@ class MyRNG(object):
     C = 0
     M = 2147483647
 
-    def __init__(self, state):
+    def __init__(self, seed):
 
         """The state should be a +ve integer"""
 
-        self.state = state
+        self.state = seed
 
     def reap(self):
 

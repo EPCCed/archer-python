@@ -3,22 +3,22 @@ Scientific Python Course Material
 
 * Contents
 
-* Aimed primerily at User Course
+* Aimed primarily at User Course
 
 user-intro
 core-numpy
 core-matplotlib
 core-scipy
 core-object
-user-parallel  PENDING
+user-parallel
 
-* Aimed primerily at Developer Course
+* Aimed primarily at Developer Course
 
 dev-intro
 core-numpy
 core-matplotlib
 core-object
-dev-quality-and-testing PENDING
+dev-quality-and-testing
 dev-compile
 dev-mpi4py
 
